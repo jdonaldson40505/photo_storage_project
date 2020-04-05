@@ -1,0 +1,13 @@
+C:\Users\Joshua\Documents\computer science\rust\project\project code\target\debug\deps\uuid-7d93407dd2198873.rmeta: C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\lib.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\builder\mod.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\builder\error.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\error.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\parser\mod.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\parser\error.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\prelude.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\adapter\mod.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\v4.rs
+
+C:\Users\Joshua\Documents\computer science\rust\project\project code\target\debug\deps\uuid-7d93407dd2198873.d: C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\lib.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\builder\mod.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\builder\error.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\error.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\parser\mod.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\parser\error.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\prelude.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\adapter\mod.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\v4.rs
+
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\lib.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\builder\mod.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\builder\error.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\error.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\parser\mod.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\parser\error.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\prelude.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\adapter\mod.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\uuid-0.8.1\src\v4.rs:

@@ -1,0 +1,10 @@
+C:\Users\Joshua\Documents\computer science\rust\project\project code\target\debug\deps\ipconfig-c10726a1412b95d9.rmeta: C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\ipconfig-0.2.1\src\lib.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\ipconfig-0.2.1\src\error.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\ipconfig-0.2.1\src\computer.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\ipconfig-0.2.1\src\adapter.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\ipconfig-0.2.1\src\bindings\mod.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\ipconfig-0.2.1\src\bindings\win32.rs
+
+C:\Users\Joshua\Documents\computer science\rust\project\project code\target\debug\deps\ipconfig-c10726a1412b95d9.d: C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\ipconfig-0.2.1\src\lib.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\ipconfig-0.2.1\src\error.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\ipconfig-0.2.1\src\computer.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\ipconfig-0.2.1\src\adapter.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\ipconfig-0.2.1\src\bindings\mod.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\ipconfig-0.2.1\src\bindings\win32.rs
+
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\ipconfig-0.2.1\src\lib.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\ipconfig-0.2.1\src\error.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\ipconfig-0.2.1\src\computer.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\ipconfig-0.2.1\src\adapter.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\ipconfig-0.2.1\src\bindings\mod.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\ipconfig-0.2.1\src\bindings\win32.rs:

@@ -1,0 +1,6 @@
+writing tests in rust:
+use header of #[test] to indicate that the functiton is a test
+use header of #[should_panic!] if test should result as panic
+use header of #[cfg(test)] to only compile when it includes test
+
+if you use another file to test program it will only test public functions. use sub module to test private functions

@@ -1,0 +1,12 @@
+C:\Users\Joshua\Documents\computer science\rust\project\project code\target\debug\deps\base64-7426e07f622cdb42.rmeta: C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\lib.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\chunked_encoder.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\display.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\tables.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\write\mod.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\write\encoder.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\encode.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\decode.rs
+
+C:\Users\Joshua\Documents\computer science\rust\project\project code\target\debug\deps\base64-7426e07f622cdb42.d: C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\lib.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\chunked_encoder.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\display.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\tables.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\write\mod.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\write\encoder.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\encode.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\decode.rs
+
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\lib.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\chunked_encoder.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\display.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\tables.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\write\mod.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\write\encoder.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\encode.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\base64-0.11.0\src\decode.rs:

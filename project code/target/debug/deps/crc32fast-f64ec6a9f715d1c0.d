@@ -1,0 +1,10 @@
+C:\Users\Joshua\Documents\computer science\rust\project\project code\target\debug\deps\crc32fast-f64ec6a9f715d1c0.rmeta: C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.2.0\src\lib.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.2.0\src\baseline.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.2.0\src\combine.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.2.0\src\specialized\mod.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.2.0\src\table.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.2.0\src\specialized\pclmulqdq.rs
+
+C:\Users\Joshua\Documents\computer science\rust\project\project code\target\debug\deps\crc32fast-f64ec6a9f715d1c0.d: C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.2.0\src\lib.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.2.0\src\baseline.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.2.0\src\combine.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.2.0\src\specialized\mod.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.2.0\src\table.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.2.0\src\specialized\pclmulqdq.rs
+
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.2.0\src\lib.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.2.0\src\baseline.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.2.0\src\combine.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.2.0\src\specialized\mod.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.2.0\src\table.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\crc32fast-1.2.0\src\specialized\pclmulqdq.rs:

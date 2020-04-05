@@ -1,0 +1,12 @@
+C:\Users\Joshua\Documents\computer science\rust\project\project code\target\debug\deps\cc-e89bb40d6ffb15c8.rmeta: C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\lib.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\registry.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\winapi.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\com.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\setup_config.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\windows_registry.rs
+
+C:\Users\Joshua\Documents\computer science\rust\project\project code\target\debug\deps\libcc-e89bb40d6ffb15c8.rlib: C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\lib.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\registry.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\winapi.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\com.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\setup_config.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\windows_registry.rs
+
+C:\Users\Joshua\Documents\computer science\rust\project\project code\target\debug\deps\cc-e89bb40d6ffb15c8.d: C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\lib.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\registry.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\winapi.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\com.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\setup_config.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\windows_registry.rs
+
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\lib.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\registry.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\winapi.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\com.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\setup_config.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\windows_registry.rs:

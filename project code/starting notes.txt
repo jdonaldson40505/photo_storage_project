@@ -1,0 +1,5 @@
+tower server look up tutorials on those and or actix
+potentially use diesal. database connectivity
+
+1st step web server set up
+

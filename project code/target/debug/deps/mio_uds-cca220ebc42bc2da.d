@@ -1,0 +1,11 @@
+C:\Users\Joshua\Documents\computer science\rust\project\project code\target\debug\deps\mio_uds-cca220ebc42bc2da.rmeta: C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\mio-uds-0.6.7\src\lib.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\mio-uds-0.6.7\src\datagram.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\mio-uds-0.6.7\src\listener.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\mio-uds-0.6.7\src\socket.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\mio-uds-0.6.7\src\stream.rs
+
+C:\Users\Joshua\Documents\computer science\rust\project\project code\target\debug\deps\libmio_uds-cca220ebc42bc2da.rlib: C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\mio-uds-0.6.7\src\lib.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\mio-uds-0.6.7\src\datagram.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\mio-uds-0.6.7\src\listener.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\mio-uds-0.6.7\src\socket.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\mio-uds-0.6.7\src\stream.rs
+
+C:\Users\Joshua\Documents\computer science\rust\project\project code\target\debug\deps\mio_uds-cca220ebc42bc2da.d: C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\mio-uds-0.6.7\src\lib.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\mio-uds-0.6.7\src\datagram.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\mio-uds-0.6.7\src\listener.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\mio-uds-0.6.7\src\socket.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\mio-uds-0.6.7\src\stream.rs
+
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\mio-uds-0.6.7\src\lib.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\mio-uds-0.6.7\src\datagram.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\mio-uds-0.6.7\src\listener.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\mio-uds-0.6.7\src\socket.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\mio-uds-0.6.7\src\stream.rs:

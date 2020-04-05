@@ -1,0 +1,10 @@
+C:\Users\Joshua\Documents\computer science\rust\project\project code\target\debug\deps\futures_channel-6ce77162e294fe31.rmeta: C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.4\src\lib.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.4\src\lock.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.4\src\mpsc\mod.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.4\src\mpsc\queue.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.4\src\mpsc\sink_impl.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.4\src\oneshot.rs
+
+C:\Users\Joshua\Documents\computer science\rust\project\project code\target\debug\deps\futures_channel-6ce77162e294fe31.d: C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.4\src\lib.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.4\src\lock.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.4\src\mpsc\mod.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.4\src\mpsc\queue.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.4\src\mpsc\sink_impl.rs C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.4\src\oneshot.rs
+
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.4\src\lib.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.4\src\lock.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.4\src\mpsc\mod.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.4\src\mpsc\queue.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.4\src\mpsc\sink_impl.rs:
+C:\Users\Joshua\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.4\src\oneshot.rs:
