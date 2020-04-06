@@ -10,9 +10,10 @@ edition = "2018"
 lazy_static = "*"
 #parking_lot = "*"
 futures = "*"
-futures-await-test = "0.3.0"
+#futures-await-test = "0.3.0"
 tokio = { version = "0.2", features = ["full"] }
 actix-web = "2.0"
+actix-rt = "1.0"
 uuid= { version = "*", features = ["v4"]}
 serde = {version = "*" , features = ["derive"]}
 serde_json = "*"

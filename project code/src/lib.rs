@@ -1,12 +1,10 @@
-use std::collections::HashMap;
-//use parking_lot::Mutex;
-use futures::lock::Mutex;
-//use futures::sink;
 use futures;
+use futures::lock::Mutex;
 use std::collections::hash_map::Entry;
+use std::collections::HashMap;
 
 #[derive(PartialEq, Eq, PartialOrd, Ord, Debug, Hash, Copy, Clone)]
-struct UserId(u128);
+pub struct UserId(u128);
 #[derive(Debug, Hash, Ord, PartialOrd, Eq, PartialEq, Clone, Copy)]
 struct PhotoId(u128);
 #[derive(Debug, Hash, Ord, PartialOrd, Eq, PartialEq, Clone)]
@@ -85,7 +83,7 @@ async fn save_user(user: UserData) {
     users.insert(user.key, user);
 }
 
-async fn generate_key(
+pub(crate) async fn generate_key(
     user_name: impl Into<String>,
     password: impl Into<String>,
     name: impl Into<String>,
