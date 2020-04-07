@@ -3,26 +3,32 @@ use futures::lock::Mutex;
 use std::collections::hash_map::Entry;
 use std::collections::HashMap;
 
+//UserId holds tuple of data type that will hold id number
 #[derive(PartialEq, Eq, PartialOrd, Ord, Debug, Hash, Copy, Clone)]
 pub struct UserId(u128);
+//Photo id holds tuple of data type that will hold photo id number
 #[derive(Debug, Hash, Ord, PartialOrd, Eq, PartialEq, Clone, Copy)]
-struct PhotoId(u128);
+pub struct PhotoId(u128);
+//Photo tuple that will hold a vec or our image
 #[derive(Debug, Hash, Ord, PartialOrd, Eq, PartialEq, Clone)]
-struct Photo(Vec<u8>);
+pub struct Photo(Vec<u8>);
 
 //static ar usize
 lazy_static::lazy_static! {
+    //USERS and PHOTOS holds user information and photos in place of our database
     static ref USERS: Mutex<HashMap<UserId, UserData>> = Mutex::new(HashMap::new());
     static ref PHOTOS: Mutex<HashMap<UserId, HashMap<PhotoId, Photo>>> = Mutex::new(HashMap::new());
 }
+
+//UserData is used to hold users information to be stored in users
 #[derive(Debug, Eq, PartialEq, Clone)]
-struct UserData {
+pub struct UserData {
     key: UserId,
     user_name: String,
     password: String,
     name: String,
 }
-//photographs: vec![],
+
 impl UserData {
     fn new(
         a_key: UserId,
@@ -38,7 +44,9 @@ impl UserData {
         }
     }
 }
-async fn get_photos(id: &UserId, image: &PhotoId) -> Option<Photo> {
+
+//gets images from lazy static PHOTOS
+pub async fn get_photos(id: &UserId, image: &PhotoId) -> Option<Photo> {
     let photos = PHOTOS.lock().await;
     for (key, value) in photos.iter() {
         if key == id {
@@ -51,7 +59,8 @@ async fn get_photos(id: &UserId, image: &PhotoId) -> Option<Photo> {
     }
     None
 }
-async fn save_photo(id: UserId, image: Photo) -> PhotoId {
+//stores photo in lazy static PHOTOS
+pub async fn save_photo(id: UserId, image: Photo) -> PhotoId {
     let mut photos = PHOTOS.lock().await;
     let image_holder = photos.entry(id);
     let photo_id = PhotoId(uuid::Uuid::new_v4().as_u128());
@@ -67,7 +76,9 @@ async fn save_photo(id: UserId, image: Photo) -> PhotoId {
     }
     photo_id
 }
-async fn get_user(username: impl AsRef<str>, password: impl AsRef<str>) -> Option<UserData> {
+
+//gets user from lazy static USERS
+pub async fn get_user(username: impl AsRef<str>, password: impl AsRef<str>) -> Option<UserData> {
     let users = USERS.lock().await;
     let username = username.as_ref();
     let password = password.as_ref();
@@ -78,11 +89,14 @@ async fn get_user(username: impl AsRef<str>, password: impl AsRef<str>) -> Optio
     }
     None
 }
-async fn save_user(user: UserData) {
+
+//Stores users in lazy static USERS
+pub async fn save_user(user: UserData) {
     let mut users = USERS.lock().await;
     users.insert(user.key, user);
 }
 
+//creates unique key for a new user and then passes new information to save user to be stored
 pub(crate) async fn generate_key(
     user_name: impl Into<String>,
     password: impl Into<String>,
