@@ -1,17 +1,18 @@
 use futures;
 use futures::lock::Mutex;
+use serde::*;
 use std::collections::hash_map::Entry;
 use std::collections::HashMap;
 
 //UserId holds tuple of data type that will hold id number
-#[derive(PartialEq, Eq, PartialOrd, Ord, Debug, Hash, Copy, Clone)]
-pub struct UserId(u128);
+#[derive(PartialEq, Eq, PartialOrd, Ord, Debug, Hash, Copy, Clone, Deserialize, Serialize)]
+pub struct UserId(pub u128);
 //Photo id holds tuple of data type that will hold photo id number
-#[derive(Debug, Hash, Ord, PartialOrd, Eq, PartialEq, Clone, Copy)]
-pub struct PhotoId(u128);
+#[derive(Debug, Hash, Ord, PartialOrd, Eq, PartialEq, Clone, Copy, Deserialize, Serialize)]
+pub struct PhotoId(pub u128);
 //Photo tuple that will hold a vec or our image
-#[derive(Debug, Hash, Ord, PartialOrd, Eq, PartialEq, Clone)]
-pub struct Photo(Vec<u8>);
+#[derive(Debug, Hash, Ord, PartialOrd, Eq, PartialEq, Clone, Serialize, Deserialize)]
+pub struct Photo(pub Vec<u8>);
 
 //static ar usize
 lazy_static::lazy_static! {
@@ -23,10 +24,10 @@ lazy_static::lazy_static! {
 //UserData is used to hold users information to be stored in users
 #[derive(Debug, Eq, PartialEq, Clone)]
 pub struct UserData {
-    key: UserId,
-    user_name: String,
-    password: String,
-    name: String,
+    pub key: UserId,
+    pub user_name: String,
+    pub password: String,
+    pub name: String,
 }
 
 impl UserData {
@@ -97,7 +98,7 @@ pub async fn save_user(user: UserData) {
 }
 
 //creates unique key for a new user and then passes new information to save user to be stored
-pub(crate) async fn generate_key(
+pub async fn generate_key(
     user_name: impl Into<String>,
     password: impl Into<String>,
     name: impl Into<String>,
