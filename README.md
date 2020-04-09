@@ -1,5 +1,5 @@
 "# jdonaldson40505" 
-this application is a naive implementation of a backend for a photo storage system. It currently does not accept input so sample inputs have been provided in main under example data and input users for you to experiment with it until the application becomes more functional.
+this application is a naive implementation of a backend for a photo storage system. It currently does not accept input so sample inputs have been provided in main under example data and input users for you to experiment with until the application becomes more functional.
 in order to run simply clone and use cargo run. make sure that you have these dependancies in your cargo.toml:
 lazy_static = "*"
 futures = "*"
