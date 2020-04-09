@@ -49,6 +49,7 @@ impl UserData {
 //gets images from lazy static PHOTOS
 pub async fn get_photos(id: &UserId, image: &PhotoId) -> Option<Photo> {
     let photos = PHOTOS.lock().await;
+    //use iter to loop through all values until we match on the right user then loop until we match on the photoid
     for (key, value) in photos.iter() {
         if key == id {
             for (key2, value2) in value.iter() {
@@ -63,12 +64,14 @@ pub async fn get_photos(id: &UserId, image: &PhotoId) -> Option<Photo> {
 //stores photo in lazy static PHOTOS
 pub async fn save_photo(id: UserId, image: Photo) -> PhotoId {
     let mut photos = PHOTOS.lock().await;
+    //we create a new photo id here and store it under the user id in photos
     let image_holder = photos.entry(id);
     let photo_id = PhotoId(uuid::Uuid::new_v4().as_u128());
     match image_holder {
         Entry::Occupied(mut o) => {
             o.get_mut().insert(photo_id, image);
         }
+        //if there is no previously stored photos create a new hashmap to store photos and store current image
         Entry::Vacant(v) => {
             let mut new_photo_album = HashMap::new();
             new_photo_album.insert(photo_id, image);
@@ -81,6 +84,7 @@ pub async fn save_photo(id: UserId, image: Photo) -> PhotoId {
 //gets user from lazy static USERS
 pub async fn get_user(username: impl AsRef<str>, password: impl AsRef<str>) -> Option<UserData> {
     let users = USERS.lock().await;
+    //match on username and password by looping through users
     let username = username.as_ref();
     let password = password.as_ref();
     for (_key, value) in users.iter() {
@@ -103,6 +107,7 @@ pub async fn generate_key(
     password: impl Into<String>,
     name: impl Into<String>,
 ) -> UserId {
+    //makes unique key and then sends to save_user to be saved
     let id = uuid::Uuid::new_v4().as_u128();
     let new_user = UserData::new(UserId(id), user_name, password, name);
     save_user(new_user).await;

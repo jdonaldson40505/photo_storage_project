@@ -1,8 +1,5 @@
-use project::*;
-//use crate::lib::{
-//    generate_key, get_photos, get_user, save_photo, save_user, Photo, PhotoId, UserData, UserId,
-//};
 use actix_web::{web, App, HttpServer};
+use project::*;
 use serde::Deserialize;
 use serde::Serialize;
 use std::borrow::Borrow;
@@ -49,13 +46,13 @@ async fn input_users() {
 //creates json object
 async fn example_data() -> String {
     //simulates a request from server in the form of json string
-    let username = "josh".to_string();
-    let password = "donaldson".to_string();
+    let username = "joshua donaldson".to_string();
+    let password = "donaldson23".to_string();
     let name = "Jake Donaldson".to_string();
-    let userid = UserId(1);
+    let userid = UserId(0);
     let photo = Photo(vec![1, 50]);
     let photoid = PhotoId(0);
-    let intent = "get user".to_string();
+    let intent = "new user".to_string();
     let p_info = ParsedInformation {
         userid,
         username,
@@ -74,31 +71,31 @@ async fn example_data() -> String {
 async fn interpreter(data: String) -> ParsedInformation {
     let mut info: ParsedInformation = serde_json::from_str(&data).unwrap();
     match info.intent.as_str() {
+        //call generate key and return new id and confirmation text
         "new user" => {
-            let new_user = generate_key(
+            info.userid = generate_key(
                 info.username.clone(),
                 info.password.clone(),
                 info.name.clone(),
             )
             .await;
-            info.userid = new_user;
             info.intent = "new user created".to_string();
             return info;
             //return all values as strings to serialize or deserialize
         }
+        //gets users name and id and alters info to display
         "get user" => {
             let saved_user = get_user(info.username.clone(), info.password.clone())
                 .await
                 .unwrap();
             info.name = saved_user.name;
             info.userid = saved_user.key;
-            info.intent = "retrieved".to_string();
-            serde_json::to_string(&info);
-            println!("here we are {:?}", info,);
+            info.intent = "user retrieved".to_string();
         }
+        //saves current user information should data need to be updated returns confirmation text
         "save user" => {
             save_user(UserData {
-                key: info.userid.clone(),
+                key: info.userid,
                 user_name: info.username.to_string(),
                 password: info.password.to_string(),
                 name: info.name.to_string(),
@@ -107,15 +104,19 @@ async fn interpreter(data: String) -> ParsedInformation {
             info.intent = "saved".to_string();
             return info;
         }
+        //call save photo and return confirmation text
         "save photo" => {
             let saved_photo = save_photo(info.userid, Photo(info.photo.0.clone())).await;
+            info.intent = "photo saved".to_string();
             info.photoid = saved_photo;
             return info;
         }
+        //gets preexisting photo and returns confirmation text
         "get photo" => {
             let returned_photo = get_photos(info.userid.borrow(), info.photoid.borrow())
                 .await
                 .unwrap();
+            info.intent = "photo retrieved".to_string();
             info.photo = returned_photo;
             return info;
         }
@@ -124,7 +125,7 @@ async fn interpreter(data: String) -> ParsedInformation {
     info
 }
 
-//index is the content to be passsed into data and the format to display is on local host 8088
+//index is the content to be passed into data and the format to display is on local host 8088
 async fn index(info: web::Data<ParsedInformation>) -> String {
     //    let data = example_data();
     let username = &info.username;
@@ -144,17 +145,21 @@ async fn index(info: web::Data<ParsedInformation>) -> String {
 //main will get our json example data then send it to our interpreter to decide what method to run it will then display the results on local host 8088
 #[actix_rt::main]
 async fn main() -> std::io::Result<()> {
+    //for testing purposes we need to create at least one existing user this will be removed after we make a system to interact with the server
     input_users().await;
+    //we get the simulated data here
     let data = example_data().await;
+    //we decide what to do with the simulated data in the interpreter
     let info = interpreter(data).await;
+    //the return of the interpreter will be sent to index to be displayed on local host 8088
     HttpServer::new(move || {
         App::new()
             .data(ParsedInformation {
-                userid: UserId(0),
+                userid: info.userid,
                 username: info.username.clone(),
                 password: info.password.clone(),
                 name: info.name.clone(),
-                photoid: info.photoid.clone(),
+                photoid: info.photoid,
                 photo: info.photo.clone(),
                 intent: info.intent.clone(),
             })
