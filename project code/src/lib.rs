@@ -17,8 +17,8 @@ pub struct Photo(pub Vec<u8>);
 //static ar usize
 lazy_static::lazy_static! {
     //USERS and PHOTOS holds user information and photos in place of our database
-    static ref USERS: Mutex<HashMap<UserId, UserData>> = Mutex::new(HashMap::new());
-    static ref PHOTOS: Mutex<HashMap<UserId, HashMap<PhotoId, Photo>>> = Mutex::new(HashMap::new());
+    pub static ref USERS: Mutex<HashMap<UserId, UserData>> = Mutex::new(HashMap::new());
+    pub static ref PHOTOS: Mutex<HashMap<UserId, HashMap<PhotoId, Photo>>> = Mutex::new(HashMap::new());
 }
 
 //UserData is used to hold users information to be stored in users
@@ -264,18 +264,4 @@ mod tests {
         photos.clear();
         users.clear();
     }
-    //        #[tokio::test]
-    //        async fn test_Can_Handle_Multiple_requests() {
-    //            let i :u8 = 0;
-    //            while i < 15 {
-    //                   generate_key(format!("jdonaldson{}", i), "joshua12309", "Joshua Donaldson").await;
-    //                   let mut info = get_user(format!("jdonaldson{}", i), "joshua12309").await;
-    //                   info.name = format!("joshua Donaldson{}", i);
-    //                   let mut id = info.key;
-    //                   save_user(info).await;
-    //                   get_photos(id).await;
-    //                   let mut image = vec![i; 50];
-    //                   save_photo(id, Photo(image)).await;
-    //               };
-    //        }
 }
